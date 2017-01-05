@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<link rel="shortcut icon" href=#>
+		<title>Sheren Aquino</title>
+		<link href="assets/css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<!-- <script src="assets/js/jquery.min.js"></script> -->
+		 <!-- Custom Theme files -->
+		<link href="assets/css/style.css" rel='stylesheet' type='text/css' />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+			    $("#hide").click(function(){
+			        $("#hide").hide();
+			        $(".social").show();
+			        $("#aboutText").hide();
+			        $("#hobbiesText").hide();
+			    });
+			    $("#show").click(function(){
+			        $("#aboutText").show();
+			        $("#hide").show();
+			        $("#hide2").hide();
+			        $(".social").hide();
+			        $("#hobbiesText").hide();
+			    });
+			    $("#hide2").click(function(){
+			        $("#hide2").hide();
+			        $(".social").show();
+			        $("#aboutText").hide();
+			        $("#hobbiesText").hide();
+			    });
+			    $("#show2").click(function(){
+			        $("#hide2").show();
+			        $("#hide").hide();
+			        $(".social").hide();
+			        $("#hobbiesText").show();
+			        $("#aboutText").hide();
+			    });
+			});
+		</script>
+	</head>
+
+	<body>
+		<div class = main>
+
+			<center><img src="https://img.clipartfest.com/16b011470a4c5c7f1cd2420a5f98b70c_light-grey-baby-elephant-clip-baby-elephant-clipart-images_297-216.png" alt="elephant" style="width:297px;height:216px;"></center>
+
+			<center><h1>Sheren Aquino</h1></center>
+
+			<center><h1><button id="show">About me.</button><button id="show2">My hobbies.</button</h1></center>
+			<center><p><span id = "aboutText" style="display:none">idk yet</span></p> 
+			<center><p><span id = "hobbiesText" style="display:none">Softball | Photography | Makeup | Ripping Jeans</span></p>
+			<center><h2><button id="hide" style="display:none">Hide</button><button id="hide2" style="display:none">Hide</button></h2></center>
+			
+
+
+<!-- 			hobbies like softball / photography / makeup 🙂 LOL AND RIPPING JEANS
+ -->
+
+
+
+			<div class = "social">
+				<center><h1><span id = "instagram"><a href = "http://instagram.com/sheren4quino">Instagram</a></span> <span id = "pinterest"><a href = "https://www.pinterest.com/sherenalexis/">Pinterest</a></span> <span id = "tumblr"><a href = "http://preppybeach.tumblr.com">Tumblr</a></span> <span id = "facebook"><a href = "https://www.facebook.com/sheren4lexis">Facebook</a></span> <span id = "twitter"><a href = "https://twitter.com/sherxaa">Twitter</a></span></h1></center>
+			</div>
+
+		</div>
+
+<!-- 		<span id = "elephantLine"><img src="http://1.bp.blogspot.com/-XS_g4lY8Vw8/U3go9AJvryI/AAAAAAAAA10/LnUnS0BVh8w/s1600/ELEPHANTS_LINE.png" alt = "elephant line" style="width:400;height:71px;"></span> -->
+
+		<div class="footer">
+			<h3><span id = "footer">Created with &#9829 by <a href = "http://samast.getnninja.com">Samast Varma</a>.</span></h3>
+		</div>
+
+	</body>
+
+</html>

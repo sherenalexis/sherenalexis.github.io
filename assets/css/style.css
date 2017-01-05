@@ -1,0 +1,78 @@
+.main {
+	position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%, -50%);
+  	margin: auto;
+  	max-width: 95%
+}
+
+body {
+  background: url(images/HeartsOpaque.png);
+}
+
+/*#elephantLine {
+	position:fixed;
+    bottom:0px;
+    left:50%;
+}*/
+
+#name {
+	color: black;
+}
+
+#facebook a {
+	color: #3b5998;
+}
+
+#twitter a {
+	color: #0084b4;
+}
+
+#instagram a {
+	color: #8a3ab9;
+}
+
+#pinterest a {
+	color: #cb2027;
+}
+
+#tumblr a {
+	color: #35465c;
+}
+
+#facebook, #twitter, #instagram, #pinterest, #tumblr {
+	font-size: 70%;
+}
+
+#show, #show2 {
+	font-size: 70%;
+	border: none;
+	background-color: transparent;
+	color: black;
+}
+
+#hide, #hide2 {
+	font-size: 50%;
+	border: none;
+	background-color: transparent;
+	color: black;
+}
+
+.footer {
+	position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	padding: 1rem;
+  	text-align: center;
+  	color: gray;
+}
+
+#footer {
+	font-size: 50%;
+}
+
+#footer a {
+	color: gray;
+}
